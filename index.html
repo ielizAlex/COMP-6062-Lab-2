@@ -4,23 +4,22 @@
     <title>COMP-6062-Lab-2</title>
   </head>
   <body>
-    <form>
+    <form class= "mb-8">
         <div>
           <label for = "Username">Username:</label>
-          <input type = "text" id = "Username" name = "Username" min-length = "5" required placeholder = "Username"/>
+          <input type = "text" id = "Username" name = "Username" minlength = "5" required placeholder = "Username"/>
         </div>
         <div>
           <label for = "Password">Password:</label>
-          <input type = "password" id = "password" name = "Password" required min-length = "5" placeholder = "Password"/>
+          <input type = "password" id = "password" name = "Password" required minlength = "5" placeholder = "Password"/>
         </div>
         <div>
-          <label><input type = "checkbox" id = "Remember me" name = "Remember me" checked/> Remember me:</label>
+          <label><input type = "checkbox" id = "Remember me" name = "Remember me" checked/> Remember me</label>
           
         </div>
-        <input class="button">
-          <button type="submit">Login</button>
+          <button class="btn" type = "submit" >Login</button>
       <style>
-        form {
+        mb-8 {
           margin-buttom: 8px;
         }
         button{
